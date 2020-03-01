@@ -1,1 +1,3 @@
 # UI-design
+Otsustasin valida oma arendusprojektiks lehe: https://www.barbican.org.uk/ ning kasutatavaks raamistikuks Bootstrapi. Valisin just nimetatud raamistiku, sest Bootstrap on  üks kasutatavamaid raamistikke, millega on küllaltki lihtne teha ilus kujundus ja mis ei nõua eelnevat suurt kogemust erinevate raamistikega. 
+Otsustasin kõigepealt raamistiku, mida soovin õppida ja seejärel alles vaatasin läbi kodulehti, mida valitud raamistikuga võiks proovida teha. Kuna mul ei ole raamistikega peaaegu üldse mingeid kogemusi, tundus algajale kõige sobivam just Bootstrap.
