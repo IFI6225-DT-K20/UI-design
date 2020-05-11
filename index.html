@@ -2,270 +2,125 @@
 <html lang="en">
 
 <head>
-    <!-- Required responsive (mobile-first) meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <script src="functions.js"></script>
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="stiil.css">
+  
+  
 </head>
 
 <body>
-  <!--<span class="container">
-            <span class="jumbotron">
-                <h1 class="display-4">barbican</h1>
-                <hr class="my-4">
-            </span>
-            <div>
-                <input class="form-control" type="text" placeholder="Search site" aria-label="Search">
-                <button type="submit"></button>
-            </div>
-            
-            
-        </span>-->
-  <!-- Search form -->
-  <span class="jumbotron">
-    <span class="title">
-      <h1 class="display-4">barbican</h1>
-    </span>
-
-    <span class="search-bar"><input class="form-control-btn" type="text" placeholder="Search site">
-      <button class="search-bar-btn" type="submit"></button></span>
-
-    <span class="log-in"><button class="log-in-btn">Log in</button></span>
-  </span>
-
-
-
-
-
-  <!--<div class="header">
-            <a href="whats-on.html">What's on?</a>
-            <a href="your-visit.html">Your visit</a>
-            <a href="join-support.html">Join & support</a>
-            <a href="take-part.html">Take part</a>
-            <a href="our-story.html">Our story</a>
-        </div>-->
-
-  <!--
-         <div class="container">
-            <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link1" href="whats-on.html">What's on?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link2" href="your-visit.html">Your visit</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link3" href="join-support.html">Join & support</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link4" href="take-part.html">Take part</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link5" href="our-story.html">Our Story</a>
-              </li>
-            </ul>
-          </div> -->
-<!--  
-  <div>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">
-        What's on?
-      </a>
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">
-        Your visit
-      </a>
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">
-        Join & support
-      </a>
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">
-        Our Story
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Something else here</a>
+  <!--Jumbotron-->
+  <div class="jumbotron">
+    <div class="flex-container">
+      <div style="flex-grow: 7;"> 
+        <p class="display-4" >barbican</p>
       </div>
-    </li>
-  </div>-->
-
-
-
-    <div class="container">
-    <nav class="navbar navbar-default">
-      <div class="navbar-header">
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+      <div class="form-control-space" style="flex-grow: 1;">
+        <input class="form-control"  type="search" placeholder="Search site" aria-label="Search">
       </div>
-  
-      <div class="collapse navbar-collapse js-navbar-collapse">
-
-        <ul class="nav navbar-nav">
-          <li class="dropdown mega-dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Collection</a>
-  
-            <ul class="dropdown-menu mega-dropdown-menu row">
-
-              <li class="col-sm-3">
-                <ul>
-                  <li class="dropdown-header">Dresses</li>
-                  <li><a href="#">Unique Features</a></li>
-                  <li><a href="#">Image Responsive</a></li>
-                  <li><a href="#">Auto Carousel</a></li>
-                  <li class="divider"></li>
-                </ul>
-              </li>
-              <li class="col-sm-3">
-                <ul>
-                  <li class="dropdown-header">Jackets</li>
-                  <li><a href="#">Easy to customize</a></li>
-                  <li><a href="#">Glyphicons</a></li>
-                  <li><a href="#">Pull Right Elements</a></li>
-                  <li class="divider"></li>
-                </ul>
-              </li>
-              <li class="col-sm-3">
-                <ul>
-                  <li class="dropdown-header">Accessories</li>
-                  <li><a href="#">Default Navbar</a></li>
-                  <li><a href="#">Lovely Fonts</a></li>
-                  <li><a href="#">Responsive Dropdown </a></li>
-                  <li class="divider"></li>
-                </ul>
-              </li>
-            </ul>
-  
-          </li>
-        </ul>
-
-        <!--Kolmas menyy-->
-        <ul class="nav navbar-nav">
-          <li class="dropdown mega-dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Collection</a>
-  
-            <ul class="dropdown-menu mega-dropdown-menu row">
-
-              <li class="col-sm-3">
-                <ul>
-                  <li class="dropdown-header">Dresses</li>
-                  <li><a href="#">Unique Features</a></li>
-                  <li><a href="#">Image Responsive</a></li>
-                  <li><a href="#">Auto Carousel</a></li>
-                  <li class="divider"></li>
-                </ul>
-              </li>
-              <li class="col-sm-3">
-                <ul>
-                  <li class="dropdown-header">Jackets</li>
-                  <li><a href="#">Easy to customize</a></li>
-                  <li><a href="#">Glyphicons</a></li>
-                  <li><a href="#">Pull Right Elements</a></li>
-                  <li class="divider"></li>
-                </ul>
-              </li>
-              <li class="col-sm-3">
-                <ul>
-                  <li class="dropdown-header">Accessories</li>
-                  <li><a href="#">Default Navbar</a></li>
-                  <li><a href="#">Lovely Fonts</a></li>
-                  <li><a href="#">Responsive Dropdown </a></li>
-                  <li class="divider"></li>
-                </ul>
-              </li>
-            </ul>
-  
-          </li>
-        </ul>
-
-        <!--Neljas menyy-->
-        <ul class="nav navbar-nav">
-          <li class="dropdown mega-dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Collection</a>
-  
-            <ul class="dropdown-menu mega-dropdown-menu row">
-
-              <li class="col-sm-3">
-                <ul>
-                  <li class="dropdown-header">Dresses</li>
-                  <li><a href="#">Unique Features</a></li>
-                  <li><a href="#">Image Responsive</a></li>
-                  <li><a href="#">Auto Carousel</a></li>
-                  <li class="divider"></li>
-                </ul>
-              </li>
-              <li class="col-sm-3">
-                <ul>
-                  <li class="dropdown-header">Jackets</li>
-                  <li><a href="#">Easy to customize</a></li>
-                  <li><a href="#">Glyphicons</a></li>
-                  <li><a href="#">Pull Right Elements</a></li>
-                  <li class="divider"></li>
-                </ul>
-              </li>
-              <li class="col-sm-3">
-                <ul>
-                  <li class="dropdown-header">Accessories</li>
-                  <li><a href="#">Default Navbar</a></li>
-                  <li><a href="#">Lovely Fonts</a></li>
-                  <li><a href="#">Responsive Dropdown </a></li>
-                  <li class="divider"></li>
-                </ul>
-              </li>
-            </ul>
-  
-          </li>
-        </ul>
-  
+      <div class="button-space" style="flex-grow: 1;">
+        <button type="button" class="btn btn-light">Log in</button>
       </div>
-      <!-- /.nav-collapse -->
-    </nav>
+    </div>
   </div>
-<!--PROOV-->
-  <nav class="navbar navbar-light bg-light justify-content-between">
-    <a class="navbar-brand">Navbar</a>
-    <form class="form-inline">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+  <div class="underline"> 
+    <hr class="my-4">
+  </div>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+
+        <li class="nav-item dropdown-megaMenu">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <!--<a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>-->
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <h4 id="headline">Find events</h4>
+                  <a href="#" id="item">
+                    Art & design
+                  </a>
+                  <a href="#" id="item">
+                    Cinema
+                  </a>
+                  <a href="#" id="item">
+                    Classical music
+                  </a>
+                  <a href="#" id="item">
+                    Contemporary music
+                  </a>
+                  <button type="button" class="btn btn-primary btn-lg">
+                    Event calendar
+                  </button>
+                </div>
+                <div class="col-md-4">
+                  <h4 id="headline_invisable">Invisable</h4>
+                  <a href="#" id="item">
+                    Talks & workshops
+                  </a>
+                  <a href="#" id="item">
+                    Theatre & dance
+                  </a>
+                  <a href="#" id="item">
+                    Tours & public spaces
+                  </a>
+                  <a href="#" id="item">
+                    Library
+                  </a>
+                </div>
+                <div class="col-md-4">
+                  <h4 id="headline">Find events</h4>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <a href="#" class="dropdown-item">
+                        <img src="https://via.placeholder.com/150x100">
+                        <img src="https://via.placeholder.com/150x100">
+                        <img src="https://via.placeholder.com/150x100">
+                      </a>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    </div>
   </nav>
+  <!--Video-->
 
-  <div id="hero">
-    <video loop muted autoplay poster controls>
-        <source src="vid.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-    <div class="content d-flex align-items-center">
-        <div class="container">
-            <h1>Welcome to</h1>
-            <h1>the Barbican</h1><br>
-            <p>Our building is temporarily closed. But we’re still with you. If</p>
-            <p>you find yourself in need of some inspiration – or distraction –</p>
-            <p>we’ll always have something for you to read, watch or listen to.</p>
-        </div>
-        <button id="btn" type="button" class="btn btn-primary btn-lg">Read, watch & listen</button>
-
-</div>
- 
-<!--s jQuery’s slim build!See script peab kindlasti asetsema vahetult enne lõpetavat body tagi, vajalik bootstrapi jaoks-->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

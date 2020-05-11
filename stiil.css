@@ -1,0 +1,125 @@
+
+.jumbotron{
+    background-color: tomato;
+    padding: 30px;
+    margin-bottom: 0;
+    border-radius: 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+p.display-4 {
+    color: white;
+    font-weight: bold;
+    align-self: center;
+}
+.form-control-space {
+    align-self: center;
+}
+
+.form-control{
+  background-color: rgb(238, 43, 43);
+}
+
+input::placeholder {
+    color: red;
+  }
+
+form-control:active {
+    color: teal;
+}
+
+.btn.btn-light {
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.button-space {
+    align-self: center;
+}
+
+.underline{
+    margin-top: 0;
+    padding: 0;
+}
+.my-4 {
+    background-color: ivory;
+    padding: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/*Annab navbarile värvi, ei toimi scss faili lisades*/
+.bg-light {
+    background-color: tomato!important;
+}
+
+._megaMenu {
+    position: static;
+}
+.dropdown-menu {
+    width: 100%;
+    margin-top: 0;
+    border: 0;
+    border-radius: 0px; 
+}
+#item {
+    color: black;
+    background-color: transparent;
+    display: block;
+    margin: 20px;
+    font-weight: bold;
+}
+
+#item:hover {
+    color: tomato;
+    text-decoration-line: none;
+}
+
+
+
+
+/*Nupp "Event calendar"*/
+.btn-lg {
+    color: white;
+    background-color: tomato;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.btn-lg:hover {
+    background-color: rgb(216, 63, 36);
+}
+
+/*What's on alamenyy disain*/
+#headline {
+    color: tomato;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+#headline_invisable {
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+/*What's on alamenyy piltide pealkirjad*/
+
+
+
+
+
+
+
