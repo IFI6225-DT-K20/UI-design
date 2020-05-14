@@ -54,6 +54,17 @@ form-control:active {
     margin-bottom: 0 !important;
 }
 
+
+/*Menyy nupud*/
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    padding-right: 30px;
+}
+#navbarDropdown:focus {
+    background-color: white;
+}
+
 /*Annab navbarile värvi, ei toimi scss faili lisades*/
 .bg-light {
     background-color: tomato!important;
@@ -68,19 +79,28 @@ form-control:active {
     border: 0;
     border-radius: 0px; 
 }
-#item {
+#item-bolder {
     color: black;
     background-color: transparent;
     display: block;
     margin: 20px;
     font-weight: bold;
 }
+#item {
+    color: black;
+    background-color: transparent;
+    display: block;
+    margin: 20px;
+    font-weight: lighter;
+}
 
 #item:hover {
     color: tomato;
     text-decoration-line: none;
 }
-
+.col {
+    padding-right: 30px;
+}
 
 
 
@@ -116,6 +136,59 @@ form-control:active {
     margin-bottom: 32px;
 }
 /*What's on alamenyy piltide pealkirjad*/
+.dropdown-item {
+    display: inline-flexbox;
+}
+
+/*Taustavideo disain*/
+#hero {
+    position: relative;
+}
+
+#hero video {
+    height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    z-index: 10;
+    object-fit: cover;
+
+}
+
+#hero .content {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#hero .content h1 {
+    color: white;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: -.0375em;
+    font-family: Futura-Bold,Arial,Helvetica,sans-serif;
+}
+
+
+
+#hero .content p {
+    color: white;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -.0075em;
+    font-family: Futura-Book,Arial,Helvetica,sans-serif;
+}
+
+#btn {
+  background-color: tomato;
+  color: white;
+  margin-top: 50px;
+  display: block!important;
+  align-self: left;
+}
 
 
 
