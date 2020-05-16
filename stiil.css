@@ -200,7 +200,7 @@ form-control:active {
     color: tomato;
     background: rgba(255,89,0,0.05);
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     border-style: solid;
     border-width: thin;
     border-color: rgba(255,89,0,0.1);
@@ -240,6 +240,39 @@ form-control:active {
     background-color: transparent!important;
 }
 
+/*Sign up to newsletter section*/
+
+.container-newsletter {
+    display: inline-flex;
+    padding-left: 15%;
+    padding-top: 20px;
+    background-color: tomato;
+    width: 100%;
+}
+
+#headline-newsletter {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: Futura-Bold,Arial,Helvetica,sans-serif;
+    font-weight: 28px;
+    color: white;
+}
+#p-newsletter-1, #p-newsletter-2, #p-newsletter-3 {
+    font-family: Futura-Book,Arial,Helvetica,sans-serif;
+    font-weight: 17px;
+    color: white;
+}
+#button-newsletter {
+    background-color: white;
+    color: tomato;
+    border: none;
+    border-radius: 6px;
+    font-family: Futura-Bold,Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    margin-top: 90px;
+    margin-left: 60px;
+}
 
 
 
