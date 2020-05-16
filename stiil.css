@@ -6,6 +6,8 @@
     border-radius: 0px;
 }
 
+
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -158,6 +160,7 @@ form-control:active {
     background: rgba(0, 0, 0, 0.5);
     height: 100%;
     width: 100%;
+    max-height: 100vh; /*ilma selleta jääb tasutavideole antud hall kestma kõikidele uutele elementidele*/
     z-index: 20;
     position: absolute;
     top: 0;
@@ -188,9 +191,54 @@ form-control:active {
   margin-top: 50px;
   display: block!important;
   align-self: left;
+  
 }
 
+/*Donate box*/
+.container-donation {
+    text-align: left;
+    color: tomato;
+    background: rgba(255,89,0,0.05);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(255,89,0,0.1);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30%;
+}
+.headline-donation {
+    font-family: Futura-Bold,Arial,Helvetica,sans-serif;
+    font-weight: 28px;
+    margin-bottom: 28px;
+    
+}
+.p-donation-1, .p-donation-2 {
+    font-family: Futura-Book,Arial,Helvetica,sans-serif;
+    font-weight: 17px;
+    margin: 0;
+}
+.p-donation-3 {
+    margin-bottom: 17px;
+}
 
+#button-donation {
+    color: tomato;
+    border-color: tomato;
+    border: 2px solid;
+    font-family: Futura-Bold,Arial,Helvetica,sans-serif;
+    font-weight: 15px;
+    padding: 15px;
+    margin-right: 1em;
+    display: inline-block;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 18px;
+}
+#button-donation:hover {
+    background-color: transparent!important;
+}
 
 
 
