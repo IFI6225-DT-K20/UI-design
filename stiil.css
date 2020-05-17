@@ -251,6 +251,7 @@ form-control:active {
     padding-top: 20px;
     background-color: tomato;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 #headline-newsletter {
@@ -277,6 +278,57 @@ form-control:active {
     margin-left: 60px;
 }
 
+/*Footer design*/
+.container-footer {
+    color: white;
+    background-color: #222121;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Futura-Bold,Arial,Helvetica,sans-serif;
+    margin-top: 0;
 
+}
+#contact-us {
+    margin-bottom: 25px;
+}
+#button-about {
+    display: inline-flex;
+    align-items: center;
+}
+#button-footer {
+    background-color: transparent;
+    margin-left: 10px;
+    width: 350px;
+    text-align: left;
+}
+#p-footer-1, #p-footer-2 {
+    margin: 0;
+    font-family: Futura-Book,Arial,Helvetica,sans-serif;
+    font-weight: 17px;
+}
+#p-footer-2 {
+    padding-bottom: 30px;
+}
+#proov {
+    font-weight: 22px;
+    font-family: Futura-Bold,Arial,Helvetica,sans-serif;
+    margin-bottom: 0;
+}
+#p-footer-3 {
+    font-family: Futura-Book,Arial,Helvetica,sans-serif;
+    font-weight: 17px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+.underline-footer {
+    width: 90%;
+    align-items: center;
+}
+
+.logos {
+    background-color: #222121;
+}
 
 
