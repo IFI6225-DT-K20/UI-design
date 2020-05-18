@@ -24,10 +24,6 @@ p.display-4 {
   background-color: #e65000;
 }
 
-form-control:active {
-    background-color: teal;
-}
-
 .btn.btn-light {
     background-color: tomato;
     color: white;
@@ -49,7 +45,7 @@ form-control:active {
     margin-bottom: 0 !important;
 }
 
-/*Menyy nupud*/
+/*Menu buttons*/
 .navbar-light .navbar-nav .nav-link {
     color: white;
     font-weight: bold;
@@ -58,8 +54,6 @@ form-control:active {
 #navbarDropdown:focus {
     background-color: white;
 }
-
-/*Annab navbarile värvi, ei toimi scss faili lisades*/
 .bg-light {
     background-color: tomato!important;
 }
@@ -100,7 +94,7 @@ form-control:active {
     padding-right: 1.9rem;
 }
 
-/*Nupp "Event calendar"*/
+/*Button "Event calendar"*/
 .btn-lg {
     color: white;
     background-color: tomato;
@@ -116,7 +110,7 @@ form-control:active {
     background-color: rgb(216, 63, 36);
 }
 
-/*What's on alamenyy*/
+/*What's on menu*/
 #headline {
     color: tomato;
     font-weight: bold;
@@ -131,12 +125,12 @@ form-control:active {
     margin-top: 2.5rem;
     margin-bottom: 2rem;
 }
-/*What's on alamenyy piltide pealkirjad*/
+/*What's on headlines*/
 .dropdown-item {
     display: inline-flexbox;
 }
 
-/*Taustavideo disain*/
+/*Background video*/
 #hero {
     position: relative;
 }
@@ -178,6 +172,9 @@ form-control:active {
   display: block!important;
   align-self: left;
 }
+#btn:hover {
+    background-color: rgb(216, 63, 36);
+}
 
 /*Donate box*/
 .container-donation {
@@ -194,13 +191,11 @@ form-control:active {
     padding-top: 1.875rem;
     padding-bottom: 1.875rem;
     padding-left: 1.25rem;
-    
 }
 .headline-donation {
     font-family: Futura-Bold,Arial,Helvetica,sans-serif;
     font-weight: 1.75rem;
     margin-bottom: 1.75rem;
-    
 }
 .p-donation-1, .p-donation-2 {
     font-family: Futura-Book,Arial,Helvetica,sans-serif;
@@ -210,7 +205,6 @@ form-control:active {
 .p-donation-3 {
     margin-bottom: 1rem;
 }
-
 #button-donation {
     color: tomato;
     border-color: tomato;
@@ -237,7 +231,6 @@ form-control:active {
     width: 100%;
     margin-bottom: 0;
 }
-
 #headline-newsletter {
     padding-left: 1.875rem;
     padding-top: 1.875rem;
@@ -271,7 +264,6 @@ form-control:active {
     padding-bottom: 3.125rem;
     font-family: Futura-Bold,Arial,Helvetica,sans-serif;
     margin-top: 0;
-
 }
 #contact-us {
     margin-bottom: 1.562rem;
@@ -305,13 +297,11 @@ form-control:active {
     padding-bottom: 1.875rem;
     padding-left: 3.125rem;
 }
-
 .underline-footer {
     width: 90%;
     align-items: center;
     padding-bottom: 1.25rem;
 }
-
 #logo-text {
     font-size: 0.687rem;
     font-family: Futura-Book,Arial,Helvetica,sans-serif;
@@ -340,7 +330,7 @@ form-control:active {
     margin: 0.3125rem 0.125rem;
     border-radius: 50%;
   }
-  .fa:hover {
+.fa:hover {
     color: tomato;
     text-decoration: none;
 }
@@ -353,10 +343,13 @@ form-control:active {
     align-items: center;
     padding-top: 0.937rem;
   }
-  #contact {
+  #contact-left, #contact-right {
       padding-top: 1.25rem;
       font-size: 0.687rem;
       font-family: Futura-Book,Arial,Helvetica,sans-serif;
   }
-  
+  #contact-right {
+      margin-left: 20px;
+  }
+
 
